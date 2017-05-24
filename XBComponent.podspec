@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/iOSDYS/XBComponent', :tag => s.version}
     s.source_files  = 'XBComponent',"**/**/*"
     s.dependency 'AdmoreSDKCore/OpenPlatform', :git => "https://github.com/duodiankeji/admore_sdk_release.git"
+    s.dependency 'SAMKeychain'
     s.requires_arc = true
 end
